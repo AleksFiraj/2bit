@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "SMEOneDashboard",
+    "slug": "SMEOneDashboard",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "openaiApiKey": "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"
+    }
+  }
+}

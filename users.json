@@ -1,0 +1,33 @@
+[
+  {
+    "contractNumber": "1010",
+    "username": "Aleks",
+    "password": "Aleks123",
+    "phone": "+355684644467",
+    "role": "sme_admin"
+  },
+  {
+    "username": "admin",
+    "password": "admin123",
+    "role": "admin_it"
+  },
+  {
+    "username": "sales",
+    "password": "sales123",
+    "role": "sales_support"
+  },
+  {
+    "contractNumber": "1234",
+    "username": "Po",
+    "password": "12",
+    "phone": "+355688446464",
+    "role": "sme_admin"
+  },
+  {
+    "contractNumber": "2000",
+    "username": "Fabian",
+    "password": "Fabian123",
+    "phone": "+355688446464",
+    "role": "sme_admin"
+  }
+]

@@ -1,0 +1,108 @@
+{
+    "businessName": "ONE Sh.p.k.",
+    "contractNumber": "CON123456",
+    "totalLines": 8,
+    "currentBilling": 23450,
+    "monthlyBudget": 25000,
+    "lines": [
+      {
+        "id": 1,
+        "msisdn": "+355691234567",
+        "user": "Elira Hoxha",
+        "role": "Manager",
+        "plan": {
+          "name": "Biz Basic",
+          "monthlyFee": 2000,
+          "includedData": 5000,
+          "includedMinutes": 1000,
+          "includedSMS": 100,
+          "roaming": true,
+          "internationalCalls": false
+        },
+        "usage": {
+          "dataUsedMB": 1850,
+          "callMinutes": 320,
+          "smsCount": 40,
+          "roamingMinutes": 15,
+          "internationalMinutes": 0
+        },
+        "budgetLimit": 2500,
+        "alerts": {
+          "dataThreshold": 80,
+          "callThreshold": 80,
+          "budgetThreshold": 90
+        },
+        "status": "active",
+        "lastUpdated": "2024-03-15T10:30:00Z"
+      },
+      {
+        "id": 2,
+        "msisdn": "+355692345678",
+        "user": "Gent Mema",
+        "role": "Sales",
+        "plan": {
+          "name": "Biz Plus",
+          "monthlyFee": 3000,
+          "includedData": 10000,
+          "includedMinutes": 2000,
+          "includedSMS": 200,
+          "roaming": true,
+          "internationalCalls": true
+        },
+        "usage": {
+          "dataUsedMB": 4100,
+          "callMinutes": 510,
+          "smsCount": 15,
+          "roamingMinutes": 45,
+          "internationalMinutes": 120
+        },
+        "budgetLimit": 3500,
+        "alerts": {
+          "dataThreshold": 80,
+          "callThreshold": 80,
+          "budgetThreshold": 90
+        },
+        "status": "active",
+        "lastUpdated": "2024-03-15T10:30:00Z"
+      }
+    ],
+    "additionalServices": [
+      {
+        "id": 1,
+        "name": "Data e Tepërt",
+        "description": "Shtesë e automatizuar e të dhënave kur shterohet limiti mujor",
+        "price": 50,
+        "status": "active",
+        "usage": "2 GB/muaj",
+        "activationDate": "2024-01-15"
+      },
+      {
+        "id": 2,
+        "name": "Roaming EU",
+        "description": "Përdorim i të dhënave dhe thirrjeve në vendet e BE-së",
+        "price": 100,
+        "status": "inactive",
+        "usage": "1 GB/muaj",
+        "activationDate": null
+      }
+    ],
+    "analytics": {
+      "monthlyTrends": {
+        "data": [1200, 1500, 1800, 2100, 2400, 2700],
+        "calls": [800, 900, 1000, 1100, 1200, 1300],
+        "sms": [200, 180, 160, 140, 120, 100]
+      },
+      "costOptimization": {
+        "potentialSavings": 500,
+        "recommendedPlans": [
+          {
+            "lineId": 1,
+            "currentPlan": "Biz Basic",
+            "recommendedPlan": "Biz Plus",
+            "savings": 200
+          }
+        ]
+      }
+    }
+  }
+  
